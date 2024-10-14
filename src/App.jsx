@@ -1,11 +1,13 @@
-import React from 'react';
+import HeroSection from './Hero';
+import Feature from './Feature';
+import Footer from './Footer';
 
-const App = () => {
+export default function Home() {
   return (
-    <div className=" items-center justify-center">
-      Welcome to BlackChat World
+    <div>
+      <HeroSection />
+      <Feature />
+      <Footer />
     </div>
   );
-};
-
-export default App;
+}
