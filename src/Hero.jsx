@@ -9,10 +9,11 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className="text-6xl font-bold text-center mb-4"
       >
-        Speak Your Truth in Unyielding Privacy
+        Welcome to BlackChat
       </motion.h1>
       <p className="text-gray-400 mt-4 text-2xl text-center">
-        The Vanguard of Your Private Realm
+        A mobile chat app that lets you send secure, private messages anywhere
+        in the world.
       </p>
       <motion.a
         href="#download"
