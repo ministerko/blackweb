@@ -20,7 +20,7 @@ const Hero = () => {
         whileHover={{ scale: 1.1, boxShadow: '0 10px 20px rgba(0, 0, 0, 0.3)' }}
         className="mt-8 bg-[#8b5cf6] text-black px-8 py-4 rounded-lg hover:bg-[#3b82f6] transition-all duration-300"
       >
-        Download Now
+        Coming soon
       </motion.a>
     </section>
   );
