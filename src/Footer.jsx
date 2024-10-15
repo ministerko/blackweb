@@ -25,17 +25,7 @@ const styles = {
 const Footer = () => {
   return (
     <footer style={styles.footer}>
-      <p>
-        © 2024 BlackChat |{' '}
-        <a href="#privacy" style={styles.link} className="hover:text-white">
-          Privacy Policy
-        </a>{' '}
-        |{' '}
-        <a href="#terms" style={styles.link} className="hover:text-white">
-          Terms of Service
-        </a>
-      </p>
-      <p style={styles.noTracking}>No Data Tracking</p>
+      <p>© 2024 BlackChat</p>
     </footer>
   );
 };
